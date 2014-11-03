@@ -1,0 +1,87 @@
+<html lang="en"><head>
+		<meta charset="utf-8">
+		<title>Walmart</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<link rel="shortcut icon" type="image/x-icon" href="walmart_favicon.ico">
+	    <!-- CSS -->
+		<style>.file-input-wrapper { overflow: hidden; position: relative; cursor: pointer; z-index: 1; }.file-input-wrapper input[type=file], .file-input-wrapper input[type=file]:focus, .file-input-wrapper input[type=file]:hover { position: absolute; top: 0; left: 0; cursor: pointer; opacity: 0; filter: alpha(opacity=0); z-index: 99; outline: 0; }.file-input-name { margin-left: 8px; }</style><link href="OIM/bootstrap.css" rel="stylesheet">
+		<link href="OIM/bootstrap-responsive.css" rel="stylesheet">
+		<link href="OIM/custom.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="OIM/jchartfx.css">		
+  </head>
+  <body>
+			
+  	<!-- ###### Loading Modal ###### -->
+  	<div class="modal hide" id="pleaseWaitDialog" data-backdrop="static" data-keyboard="false">
+        <div class="modal-header">
+            <h1>Carregando...</h1>
+        </div>
+        <div class="modal-body">
+            <div class="progress progress-striped active">
+                <div class="bar" style="width: 100%;"></div>
+            </div>
+        </div>
+    </div>
+    
+      <!-- ###### Alert's Modal ###### -->
+   	<div class="alert alert-success modal hide" style="background-color:#dff0d8 !important;">
+		<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+		<span></span>
+	</div>
+   	<div class="alert modal hide" id="alert" style="background-color:#fcf8e3 !important;">
+		<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+		<span></span>
+	</div>
+   	<div class="alert alert-error modal hide" id="alert" style="background-color:#fcf8e3 !important;">
+		<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+		<span></span>
+	</div>
+    
+   	<!-- ###### Content ###### -->
+	<div id="wrap">
+		<!-- Fixed navbar -->
+		<div class="navbar navbar-fixed-top">
+			<div class="navbar-inner gradient-header">
+				<div class="container">
+					<button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+						<span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
+					</button>
+					<h1 id="wm-logo">
+						<a class="brand" href="http://www.walmart.com.br/" title="Walmart">Frontend Reloaded</a>
+					</h1>
+				</div>
+			</div>
+
+			<!-- Begin page content -->
+			<div class="container">
+				<!-- Begin data table-->			
+				<div>
+					<div align="center" class="modal modalauth">
+				        <div class="modal-header">
+				            <img src="OIM/images.jpeg"><h3>Alteração de Senha</h3>
+
+				        </div>
+				        <div class="modal-body"><p>O processo de troca de senha para <b><i>Acesso Corporativo</i></b> falhou, favor solicitar a troca de senha junto ao Service Desk. Tenha certeza que a nova senha não seja repetida.<br>
+--------------------------</p><p>Password reset for <b>Corporate Access</b> fail, please, request the password change to Service Desk. Be sure that the new password was not used before.<br>
+--------------------------</p><p>El proceso de sustitución de contraseña ha fallado en el <b>Entorno Corporativo</b>, por favor, solicitar un cambio de contraseña por el Service Desk. Asegúrese de que la nueva contraseña no se repite.</p>
+
+
+</div>
+				        
+						
+					</div>
+				</div>
+				<div id="push"></div>
+			</div>
+		</div>
+	</div>
+	
+	<div id="footer">
+		<div class="container">
+			<p class="muted credit">© 2014 Wal-Mart GeC-BR</p>
+		</div>
+    </div>	
+</body></html>
