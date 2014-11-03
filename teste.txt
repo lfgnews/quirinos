@@ -1,4 +1,7 @@
-Test do download reverso
-sgdfgdsg
-sdfhsdhsghsfg
-sghsghsfg
+Subject: Password reset Fail - Corporativo
+
+O processo de troca de senha no ambiente de rede corporativo falhou, favor solicitar a troca de senha junto ao Service Desk. Tenha certeza que a nova senha não seja repetida.
+
+Password reset on corporate access fail, please, request the password change to Service Desk. Be sure that the new password was not used before.
+
+El proceso de sustitución de contraseña ha fallado en el entorno corporativo, por favor, solicitar un cambio de contraseña por el Service Desk. Asegúrese de que la nueva contraseña no se repite.
